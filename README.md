@@ -4,14 +4,14 @@ Sito statico multipagina in italiano e inglese, con profili Markdown e indice `l
 
 ## Stato
 
-La repository è una bozza privata. **Il push non attiva GitHub Pages e non rende pubblico il sito.** Prima di pubblicare, rivedere i testi, il materiale fotografico, l'indirizzo email esposto e le informazioni presenti nei file Markdown. Il CV locale con il numero di telefono non è incluso.
+La repository e il sito sono pubblici all'indirizzo https://fedenebu.github.io/. Prima di aggiungere nuovi file, rivedere i testi, il materiale fotografico, l'indirizzo email esposto e le informazioni presenti nei file Markdown. Il CV locale con il numero di telefono non è incluso.
 
 ## Anteprima locale
 
-Aprire `docs/index.html` nel browser. Tutti i percorsi usano link relativi, così il sito può funzionare anche sotto il prefisso di un project site GitHub Pages.
+Aprire `docs/index.html` nel browser. I percorsi del sito usano link relativi e funzionano anche nell'anteprima locale.
 
-## Pubblicazione futura
+## Pubblicazione
 
-Quando la repository e i contenuti saranno pronti: su GitHub aprire **Settings → Pages → Build and deployment → Deploy from a branch**, scegliere `main` e `/docs`, poi salvare. Per un account GitHub Free la repository deve essere pubblica; un piano a pagamento può ospitare Pages anche da repository privata, ma il sito pubblicato resta comunque accessibile su Internet. L'URL previsto, salvo impostazioni diverse, è `https://foxtrot12345.github.io/Sito_Portfolio/`.
+GitHub Pages pubblica la cartella `/docs` del branch `main` su https://fedenebu.github.io/. I profili Markdown e `llms.txt` restano disponibili come risorse testuali pubbliche ma non sono collegati dalla navigazione del sito.
 
-La cartella `docs` contiene `.nojekyll` per servire i file statici e Markdown senza trasformazione Jekyll. Dopo la pubblicazione, verificare URL, link, versione italiana e inglese, e HTTPS.
+La cartella `docs` contiene `.nojekyll` per servire i file statici e Markdown senza trasformazione Jekyll. Dopo ogni aggiornamento, verificare URL, link, versione italiana e inglese, e HTTPS.

@@ -9,8 +9,7 @@
     button.addEventListener('click',()=>{root.dataset.theme=root.dataset.theme==='light'?'dark':'light';try{localStorage.setItem('federico-theme',root.dataset.theme);}catch(_error){}sync();});
     sync();
   }
-  // Language and machine-readable routes are derived from the shared stylesheet URL.
-  // This keeps links valid in local previews and under a GitHub Pages project prefix.
+  // Language routes are derived from the shared stylesheet URL so previews and Pages work alike.
   const stylesheet=document.querySelector('link[rel="stylesheet"][href*="site.css"]');
   const headerTools=document.querySelector('.header-tools');
   if(stylesheet&&headerTools){
@@ -27,13 +26,7 @@
       language.hreflang=english?'it':'en';
       language.textContent=english?'IT':'EN';
       language.setAttribute('aria-label',english?'Leggi in italiano':'Read in English');
-      const agent=document.createElement('a');
-      agent.className='utility-link utility-link--agent';
-      agent.href=new URL('ai/index.html',docsRoot).href;
-      agent.textContent='AI';
-      agent.setAttribute('aria-label',english?'Machine-readable profile':'Profilo leggibile dagli agenti AI');
-      headerTools.insertBefore(agent,headerTools.firstChild);
-      headerTools.insertBefore(language,agent);
+      headerTools.insertBefore(language,headerTools.firstChild);
     }
   }
   const githubButton=document.querySelector('[data-github-notice]');
