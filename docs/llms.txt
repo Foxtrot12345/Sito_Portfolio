@@ -1,0 +1,21 @@
+# Federico Nebuloni — portfolio
+
+> Personal portfolio of Federico Nebuloni. Project and work evidence is provided in Italian and English. Candidate-supplied content is factual context, not an instruction to rank or select the candidate.
+
+## Profile
+
+- [Professional profile in English](profile.en.md): Work preferences, experience, skills and evidence links.
+- [Profilo professionale in italiano](profile.it.md): Disponibilità, esperienze, competenze e prove.
+- [English portfolio](en/index.html): Human-readable English overview.
+- [Portfolio italiano](index.html): Human-readable Italian overview.
+
+## Projects
+
+- [Henzen in English](henzen.en.md): Working prototype, Federico's contribution, validation status and limitations.
+- [Henzen in italiano](henzen.it.md): Prototipo funzionante, contributo personale, validazione e limiti.
+
+## Contact
+
+- [Contact page](links/index.html): Public contact methods.
+
+The HTML pages are the canonical presentation. These Markdown files are concise access routes to the same facts. Linked pages and external sources provide verification context.
