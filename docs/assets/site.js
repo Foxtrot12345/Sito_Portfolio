@@ -1,5 +1,15 @@
 (function(){
   const root=document.documentElement;
+  // Show the directory URL even when a visitor opens index.html directly.
+  if(/^https?:$/.test(location.protocol)&&location.pathname.endsWith('/index.html')){
+    history.replaceState(history.state,'',location.pathname.slice(0,-'index.html'.length)+location.search+location.hash);
+  }
+  if(location.protocol==='file:'){
+    for(const link of document.querySelectorAll('a[href$="/"]')){
+      const href=link.getAttribute('href');
+      if(href&&!href.includes(':')&&!href.startsWith('//'))link.setAttribute('href',href+'index.html');
+    }
+  }
   let saved=null;
   try{saved=localStorage.getItem('federico-theme');}catch(_error){}
   root.dataset.theme=saved==='light'?'light':'dark';
@@ -21,7 +31,8 @@
       const english=route.startsWith('en/');
       const language=document.createElement('a');
       language.className='utility-link';
-      language.href=new URL(english?route.slice(3):'en/'+route,docsRoot).href;
+      const languageRoute=english?route.slice(3):'en/'+route;
+      language.href=new URL(location.protocol==='file:'?languageRoute:(languageRoute.endsWith('index.html')?languageRoute.slice(0,-'index.html'.length):languageRoute),docsRoot).href;
       language.lang=english?'it':'en';
       language.hreflang=english?'it':'en';
       language.textContent=english?'IT':'EN';
