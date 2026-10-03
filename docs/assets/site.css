@@ -132,7 +132,11 @@ h1,h2,h3{color:var(--strong);letter-spacing:-.03em}
 .campaign-gallery img{width:100%;height:auto}
 .campaign-gallery figcaption{margin-top:10px;font-size:.875rem;line-height:1.5;color:var(--text)}
 .campaign-gallery-press{grid-column:1/-1}
-@media(max-width:700px){.campaign-gallery{grid-template-columns:minmax(0,1fr)}}
+.campaign-gallery-press a{padding:clamp(12px,2vw,22px);border-color:#ac9b7e;border-radius:2px;background:#e9dfcb}
+.campaign-gallery-press img{border:1px solid #c5b695}
+.campaign-gallery-press figcaption{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
+.campaign-gallery-press .press-open{color:var(--accent);font-size:.8125rem;white-space:nowrap}
+@media(max-width:700px){.campaign-gallery{grid-template-columns:minmax(0,1fr)}.campaign-gallery-press figcaption{flex-wrap:wrap;gap:4px 12px}}
 .timeline{list-style:none;padding:0;margin:37px 0;border-top:1px solid var(--border)}
 .timeline li{display:grid;grid-template-columns:118px 1fr;gap:20px;padding:20px 0;border-bottom:1px solid var(--border)}
 .timeline time{font:.76rem/1.5 'Geist Mono',monospace;color:var(--accent)}
