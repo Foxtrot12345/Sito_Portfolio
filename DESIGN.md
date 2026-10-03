@@ -15,8 +15,6 @@ colors:
   light-text: "#52525b"
   light-muted: "#706b68"
   light-accent: "#a85a2a"
-  globe-country: "#31bf6c"
-  globe-place: "#f46e60"
 typography:
   display:
     fontFamily: "Geist, sans-serif"
@@ -77,7 +75,7 @@ components:
 
 The site presents work through strong type, measured space, thin rules, and a compact orange accent. Its pages read as a connected collection: a shared header and footer frame hero statements, lists, articles, and links to deeper work. A light theme uses the same hierarchy with reversed neutral roles.
 
-The Globe is an immersive expression within that world. Its dark canvas makes geography dominant, while the existing header, Geist typography, orange interaction state, and fine dividers keep it connected to the rest of the portfolio. Green and red communicate geographic categories on that surface only.
+The Globe is an immersive expression within that world. A photographic Earth fills the starfield below the shared header, with green overlays marking three countries in focus. A compact three-cell statistics strip anchors the bottom. The Globe keeps the shared Geist typography and orange active-navigation rule without adding an explanatory column or title to the visible scene.
 
 **Key Characteristics:**
 
@@ -100,7 +98,7 @@ The default theme has a near-black field; the light theme exchanges the neutral 
 - **Hairline Border** (`border`): separates panels, rows, the header, and footer. The light theme uses `light-border`.
 - **Near White** (`strong`), **Body Gray** (`text`), and **Quiet Gray** (`muted`): heading, body, and low-emphasis roles. In the light theme, `bg` becomes the strong-text value while `light-text` and `light-muted` fill the remaining roles.
 
-**The Semantic Accent Rule.** Orange identifies site identity and interaction. On the Globe, `globe-country` identifies highlighted countries and `globe-place` identifies location pins; those colors remain scoped to geographic meaning.
+**The Semantic Accent Rule.** Orange identifies site identity and interaction. The Globe's green polygon fill and outline identify Italy, Spain, and Switzerland as countries in focus; green stays scoped to that geographic meaning.
 
 ## Typography
 
@@ -112,11 +110,11 @@ The default theme has a near-black field; the light theme exchanges the neutral 
 
 ### Hierarchy
 
-- **Display:** the frontmatter display role describes the home hero. Interior page titles use `clamp(3.1rem, 6vw, 5.3rem)`; the Globe title uses `clamp(3.8rem, 6vw, 6.7rem)` on desktop and `3.5rem` on narrow screens.
+- **Display:** the frontmatter display role describes the home hero. Interior page titles use `clamp(3.1rem, 6vw, 5.3rem)`. The Globe has no visible display title.
 - **Headline:** section headings use the headline role; article headings are smaller (`1.7rem`).
 - **Title:** card and list headings cluster near the title role, with the exact size adjusted for the component.
 - **Body:** regular text uses the body role. Article copy expands to (`1.04rem`, `1.75` line height) inside a (`680px`) reading column.
-- **Label:** Geist Mono appears at roughly (`.7rem`–`.78rem`) for metadata, numbered entries, utilities, and the Globe rail.
+- **Label:** Geist Mono appears at roughly (`.7rem`–`.78rem`) for metadata, numbered entries, utilities, and the Globe statistics labels (`.6875rem`).
 
 **The Two-Font Rule.** Keep major statements and reading copy in Geist; use Geist Mono for compact information and controls.
 
@@ -124,17 +122,17 @@ The default theme has a near-black field; the light theme exchanges the neutral 
 
 The main container caps at (`1120px`) with (`40px`) total viewport subtraction; long-form reading caps at (`680px`). Desktop sections typically have (`105px`) vertical padding, reducing to (`83px`) below (`700px`). Lists and grids use borders as structure, with three or two columns on wide screens and one column where the content needs it on narrow screens.
 
-The shared header is sticky at (`66px`) on desktop and (`54px`) below (`700px`). At that breakpoint, a details-based menu replaces desktop navigation. The Globe itself has a wider (`1600px`) shell: the visualization fills the stage and a (`286px`) rail overlays the right side. Below (`700px`), its copy, stage, and rail stack in that order.
+The shared header is sticky at (`66px`) on desktop and (`54px`) below (`700px`). At that breakpoint, a details-based menu replaces desktop navigation. The Globe stage occupies the remaining viewport height (`100svh` minus the header), and its canvas fills the stage. A centered three-cell strip sits (`24px`) from the bottom at up to (`620px`) wide; below (`700px`), it sits (`14px`) from the bottom and nearly spans the viewport. The Earth grows beyond the narrow viewport while the strip remains within it.
 
 ## Elevation & Depth
 
-The site is predominantly flat. Surface contrast and one-pixel borders define most cards and lists. Shadows appear on a few specific objects: the mobile menu (`0 12px 30px #0004`), timeline icons (`0 5px 12px #0004`), and the Globe fallback orb (`inset -35px -25px 70px #090a0a`). The Globe also uses a dark edge gradient to keep overlay text legible.
+The site is predominantly flat. Surface contrast and one-pixel borders define most cards and lists. Shadows appear on a few specific objects: the mobile menu (`0 12px 30px #0004`), timeline icons (`0 5px 12px #0004`), and the Globe statistics strip (`0 20px 50px rgba(0,0,0,.5)`). The Globe uses a dark lower fade and side gradients to frame its bottom strip; the strip adds translucent black and blur (`16px`) over the starfield.
 
 **The Bordered Surface Rule.** Let borders and tonal changes organize content; reserve shadows for layered objects already evidenced in the build.
 
 ## Shapes
 
-Buttons, the mobile menu control, fact strip, and article image frame use subtly rounded (`3px`) corners. Timeline cards use finer (`2px`) corners. Content grids and the Globe rail favor straight edges and rules; map keys and focus markers are circular dots because they encode points or categories.
+Buttons, the mobile menu control, fact strip, and article image frame use subtly rounded (`3px`) corners. Timeline cards use finer (`2px`) corners. Content grids favor straight edges and rules; the Globe statistics strip uses a modest (`4px`) radius and fine cell dividers.
 
 ## Components
 
@@ -153,9 +151,9 @@ Buttons, the mobile menu control, fact strip, and article image frame use subtly
 
 The wordmark uses Geist Mono with an orange slash. Desktop links are small, semibold Geist; the active page gains strong text and a (`2px`) orange bottom rule. The mobile menu uses a bordered square trigger and a raised surface panel. The Globe shares this site frame in both languages.
 
-### Globe focus rail
+### Globe statistics strip
 
-The rail uses subdued monospace category labels and a fine left divider on desktop. Its full-width focus buttons use (`49px`) minimum row height, fine row rules, a green or red category dot, and orange hover or pressed text. The rail moves below the visualization on narrow screens. A text fallback retains all names when the map cannot load.
+The strip contains three equal cells: countries in focus, continent, and curiosity. Values use semibold Geist (`1.4rem` desktop; `1.15rem` narrow), with small uppercase Geist Mono labels (`.6875rem`). The translucent black panel has a fine light border, two cell dividers, a (`4px`) radius, and blur. On narrow screens each value stacks above its label. The Globe rotates slowly until interaction pauses it; dragging rotates it and wheel or pinch gestures zoom it. Reduced-motion preference disables auto-rotation. Loading and error status appear only while needed, and screen-reader text explains the country highlights.
 
 ## Do's and Don'ts
 
@@ -163,9 +161,9 @@ The rail uses subdued monospace category labels and a fine left divider on deskt
 
 - **Do** preserve the shared header, footer, type families, and semantic orange interaction treatment on new pages.
 - **Do** retain the dark and light neutral role mapping when extending shared components.
-- **Do** keep custom visualization colors tied to a labeled meaning, as the Globe does with its country and place key.
+- **Do** keep custom visualization colors tied to a labeled meaning, as the Globe does with its green country overlays.
 
 ### Don't:
 
-- **Don't** use the Globe's green and red categories as general site accents.
+- **Don't** use the Globe's green country highlight as a general site accent.
 - **Don't** replace the thin border structure with persistent raised cards across ordinary content pages.

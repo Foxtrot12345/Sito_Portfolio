@@ -9,18 +9,18 @@ related_targets: ["docs/en/globe/index.html"]
 
 ## Scope
 
-Dedicated Italian and English `/globe/` pages in the existing Federico Nebuloni portfolio. Visitor mode: Experience. A visitor explores a real geographic globe, sees three countries in focus, and can locate two named places without inferred travel claims.
+Dedicated Italian and English `/globe/` pages in the existing Federico Nebuloni portfolio. Visitor mode: Experience. The visual reference is Simone Mattioli's Globe page. Only Italy, Spain, and Switzerland are highlighted; this describes focus, not travel. There are no pins or personal travel stories.
 
 ## Direction contract
 
-**THESIS:** A compact personal atlas, not a travel-count dashboard or a list pretending to be a map. The geography itself leads.
+**THESIS:** Let an oversized, realistic Earth be the entire experience. Remove the previous title, explanatory column, pin layer, and side rail; do not turn the page into a dashboard.
 
-**OWN-WORLD:** Inherit the site's black, near-white, orange editorial system. Give the actual countries a clear green role and the two location pins a red role; use precise boundaries and calm controls, without a new brand.
+**OWN-WORLD:** Reproduce the reference page's black starfield, photographic blue-marble Earth, green country overlays, and slender bottom statistics strip. Keep Federico's existing header, type, orange navigation underline, and bilingual routing.
 
-**STORY:** The visitor rotates the Earth, finds Italy, Spain, and Switzerland in green, and identifies Madrid and H-FARM Campus in the Venice area via red pins and a readable legend. “In focus” is not “visited.”
+**STORY:** The visitor immediately sees the Earth, rotates and zooms it, and recognizes three green countries. A quiet bottom strip says three countries in focus, one continent, and infinite curiosity; none of these imply visits.
 
-**FIRST VIEWPORT:** Under the existing header, one large globe occupies the majority of the viewport. A compact, readable side rail names the three countries and two pins; the globe remains dominant. On narrow screens, the rail moves below the globe without hiding labels.
+**FIRST VIEWPORT:** Immediately below the 66px header, a huge Earth is centered and cropped slightly at the top on desktop; on mobile it grows wider than the viewport and fills nearly all its width. Starfield fills the stage. A three-cell translucent statistics strip sits at the bottom, with no title, rail, legend, labels, or pins.
 
-**FORM:** Code-led interactive globe in the established portfolio world; direct interpretation of the user's pinned Simone reference, so no concept seed applies. Signature interaction: drag to rotate, with keyboard-accessible controls to focus the named places. No stories or unsupported travel claims.
+**FORM:** Pinned-reference exception: the user explicitly chose Simone's live Globe, so this surface does not require an open concept roll or seed key. The implementation is code-led. Signature interaction is drag-to-rotate and wheel/pinch zoom; country overlays follow real borders. Preserve an accessible text description and graceful error state without adding visible chrome to the normal composition.
 
 **FINISH:** unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance

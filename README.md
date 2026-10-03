@@ -12,7 +12,7 @@ Aprire `docs/index.html` nel browser. I percorsi del sito usano link relativi e 
 
 ## Globe
 
-La pagina `docs/globe/` (con equivalente `docs/en/globe/`) mette in evidenza Italia, Spagna e Svizzera senza presentarli come Paesi visitati. I pin indicano Madrid e H-FARM nell'area di Venezia. Il globo usa Globe.gl 2.46.1 con verifica d'integrità del file JavaScript e dati geografici fissati a un commit preciso. Se WebGL o una risorsa esterna non sono disponibili, restano visibili i nomi dei Paesi e dei luoghi, mentre i comandi del globo si disattivano.
+La pagina `docs/globe/` (con equivalente `docs/en/globe/`) riprende la composizione del Globe di Simone Mattioli: Terra fotografica molto grande, sfondo stellato e statistiche in basso. Italia, Spagna e Svizzera sono evidenziate senza presentarle come Paesi visitati; non ci sono pin. Il globo usa Globe.gl 2.46.1 con verifica d'integrità del file JavaScript, texture con versione fissata e dati geografici fissati a un commit preciso. Se WebGL o una risorsa esterna non sono disponibili, viene mostrato un messaggio d'errore.
 
 ## Pubblicazione
 

@@ -21,7 +21,7 @@ The site is a static, multi-page HTML/CSS/JavaScript project published from `doc
 ## Capabilities and Constraints
 
 - The existing site has pages for the personal profile, links, projects, Henzen, and civic work.
-- The new Globe is a dedicated navigation page with a rotatable globe. Italy, Spain, and Switzerland are highlighted in green as **countries in focus**, not necessarily a claim of visits. Red pins identify Madrid and H-FARM Campus near Venice by name only; no stories are supplied.
+- The Globe is a dedicated navigation page with a large, rotatable, photographic Earth and a starfield, closely following the composition of Simone Mattioli's Globe page. Italy, Spain, and Switzerland are highlighted in green as **countries in focus**, not a claim of visits. No location pins or personal travel stories are shown.
 - The site must remain usable on narrow screens and without exposing the local CV or phone number.
 - Avoid presenting a prototype as an MVP or inventing outcomes, travel history, or associations not supplied by Federico.
 
@@ -29,7 +29,7 @@ The site is a static, multi-page HTML/CSS/JavaScript project published from `doc
 
 - Existing project and civic pages in `docs/`.
 - A public portrait at `docs/assets/federico-nebuloni-portrait.png`.
-- Source-backed H-FARM campus location: Via Adriano Olivetti 1, Roncade (TV), near Venice; this is distinct from Venice city centre.
+- Simone Mattioli's public Globe page is the visual reference for the Globe's composition, not a source of claims about Federico.
 
 ## Product Principles
 

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Globe — Federico Nebuloni</title>
-  <meta name="description" content="Un globo interattivo con Italia, Spagna e Svizzera in evidenza e due luoghi: Madrid e H-FARM vicino a Venezia.">
+  <meta name="description" content="Esplora un globo interattivo: Italia, Spagna e Svizzera sono i tre Paesi in evidenza.">
   <link rel="canonical" href="https://fedenebu.github.io/globe/">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="../assets/site.css">
   <script src="../assets/site.js" defer></script>
@@ -12,12 +12,13 @@
 </head>
 <body>
 <header class="site-header"><div class="container header-inner"><a class="wordmark" href="../"><span class="wordmark-mark">/</span> Federico Nebuloni</a><nav class="desktop-nav" aria-label="Navigazione principale"><a href="../">Home</a><a href="../chi-sono/index.html">Chi sono</a><a href="../links/index.html">Links</a><a href="../progetti/index.html">Progetti</a><a href="../civico/index.html">Civico</a><a href="index.html" aria-current="page">Globe</a></nav><div class="header-tools"><button class="icon-btn" type="button" data-theme-toggle aria-label="Attiva tema chiaro"><span class="theme-icon" aria-hidden="true">◕</span></button><details class="mobile-nav"><summary aria-label="Apri menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></summary><nav class="mobile-panel" aria-label="Menu mobile"><a href="../">Home</a><a href="../chi-sono/index.html">Chi sono</a><a href="../links/index.html">Links</a><a href="../progetti/index.html">Progetti</a><a href="../civico/index.html">Civico</a><a href="index.html" aria-current="page">Globe</a></nav></details></div></div></header>
-<main class="globe-page" data-globe-page data-locale="it">
-  <div class="globe-shell">
-    <div class="globe-copy"><h1>Globe<span>.</span></h1><p>Tre Paesi in evidenza, due luoghi da individuare. Ruota il globo o scegli un punto.</p><div class="globe-key"><span><i class="globe-key-country"></i> Paesi in evidenza</span><span><i class="globe-key-place"></i> Luoghi</span></div></div>
-    <div class="globe-stage" aria-label="Globo interattivo"><div id="globe-viz" class="globe-viz" aria-hidden="true"></div><div class="globe-fallback" id="globe-fallback"><div class="globe-fallback-orb" aria-hidden="true"></div><p id="globe-status" role="status">Caricamento del globo…</p></div></div>
-    <aside class="globe-rail" aria-label="Luoghi sul globo"><p class="globe-rail-label">PAESI IN EVIDENZA <span>03</span></p><div class="globe-focus-list"><button type="button" data-globe-focus="italy"><span class="globe-focus-dot green"></span><span>Italia</span></button><button type="button" data-globe-focus="spain"><span class="globe-focus-dot green"></span><span>Spagna</span></button><button type="button" data-globe-focus="switzerland"><span class="globe-focus-dot green"></span><span>Svizzera</span></button></div><p class="globe-rail-label globe-rail-label--places">LUOGHI <span>02</span></p><div class="globe-focus-list"><button type="button" data-globe-focus="madrid"><span class="globe-focus-dot red"></span><span>Madrid</span></button><button type="button" data-globe-focus="h-farm"><span class="globe-focus-dot red"></span><span>H-FARM <small>area di Venezia</small></span></button></div><p class="globe-hint">Trascina per ruotare · scorri per avvicinare</p></aside>
-  </div>
+<main class="globe-page" data-globe-page data-locale="it" aria-label="Globo interattivo">
+  <h1 class="sr-only">Globe</h1>
+  <p class="sr-only">Italia, Spagna e Svizzera sono i Paesi in evidenza; non è un elenco di viaggi. Trascina il globo per ruotarlo e scorri per ingrandirlo.</p>
+  <div id="globe-viz" class="globe-viz" aria-hidden="true"></div>
+  <p id="globe-status" class="globe-status" role="status">Caricamento della Terra…</p>
+  <section class="globe-spotlight" aria-label="Paesi in evidenza">
+    <div class="globe-stats"><div class="globe-stat"><strong>3</strong><span>Paesi in evidenza</span></div><div class="globe-stat"><strong>1</strong><span>Continente</span></div><div class="globe-stat"><strong>∞</strong><span>Curiosità</span></div></div>
+  </section>
 </main>
-<footer class="site-footer"><div class="container footer-inner"><span>© 2026 Federico Nebuloni</span><span>Portfolio in evoluzione</span></div></footer>
 </body></html>
