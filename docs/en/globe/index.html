@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Globe — Federico Nebuloni</title>
+  <meta name="description" content="An interactive globe highlighting Italy, Spain and Switzerland, with two places: Madrid and H-FARM near Venice.">
+  <link rel="canonical" href="https://fedenebu.github.io/en/globe/">
+  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="../../assets/site.css">
+  <script src="../../assets/site.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/globe.gl@2.46.1/dist/globe.gl.min.js" integrity="sha384-fS13P48RBFel+cPUp5960AhzvtEr64LerQ00neZuM+Hi/VDxxemdQnN7IcWPYvPb" crossorigin="anonymous" defer></script>
+  <script src="../../assets/globe.js" defer></script>
+</head>
+<body>
+<header class="site-header"><div class="container header-inner"><a class="wordmark" href="../"><span class="wordmark-mark">/</span> Federico Nebuloni</a><nav class="desktop-nav" aria-label="Main navigation"><a href="../">Home</a><a href="../chi-sono/index.html">About</a><a href="../links/index.html">Links</a><a href="../progetti/index.html">Projects</a><a href="../civico/index.html">Civic work</a><a href="index.html" aria-current="page">Globe</a></nav><div class="header-tools"><button class="icon-btn" type="button" data-theme-toggle aria-label="Use light theme"><span class="theme-icon" aria-hidden="true">◕</span></button><details class="mobile-nav"><summary aria-label="Open menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></summary><nav class="mobile-panel" aria-label="Mobile menu"><a href="../">Home</a><a href="../chi-sono/index.html">About</a><a href="../links/index.html">Links</a><a href="../progetti/index.html">Projects</a><a href="../civico/index.html">Civic work</a><a href="index.html" aria-current="page">Globe</a></nav></details></div></div></header>
+<main class="globe-page" data-globe-page data-locale="en">
+  <div class="globe-shell">
+    <div class="globe-copy"><h1>Globe<span>.</span></h1><p>Three countries in focus, two places to find. Rotate the globe or choose a point.</p><div class="globe-key"><span><i class="globe-key-country"></i> Countries in focus</span><span><i class="globe-key-place"></i> Places</span></div></div>
+    <div class="globe-stage" aria-label="Interactive globe"><div id="globe-viz" class="globe-viz" aria-hidden="true"></div><div class="globe-fallback" id="globe-fallback"><div class="globe-fallback-orb" aria-hidden="true"></div><p id="globe-status" role="status">Loading globe…</p></div></div>
+    <aside class="globe-rail" aria-label="Places on the globe"><p class="globe-rail-label">COUNTRIES IN FOCUS <span>03</span></p><div class="globe-focus-list"><button type="button" data-globe-focus="italy"><span class="globe-focus-dot green"></span><span>Italy</span></button><button type="button" data-globe-focus="spain"><span class="globe-focus-dot green"></span><span>Spain</span></button><button type="button" data-globe-focus="switzerland"><span class="globe-focus-dot green"></span><span>Switzerland</span></button></div><p class="globe-rail-label globe-rail-label--places">PLACES <span>02</span></p><div class="globe-focus-list"><button type="button" data-globe-focus="madrid"><span class="globe-focus-dot red"></span><span>Madrid</span></button><button type="button" data-globe-focus="h-farm"><span class="globe-focus-dot red"></span><span>H-FARM <small>Venice area</small></span></button></div><p class="globe-hint">Drag to rotate · scroll to zoom</p></aside>
+  </div>
+</main>
+<footer class="site-footer"><div class="container footer-inner"><span>© 2026 Federico Nebuloni</span><span>Portfolio in progress</span></div></footer>
+</body></html>

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-03T15:13:53+02:00",
+  "title": "Design System: Federico Nebuloni Portfolio",
+  "extensions": {
+    "colorMeta": {
+      "accent": {"role":"primary","displayName":"Warm Orange","canonical":"#d9823f","tonalRamp":["oklch(15% 0.06 55)","oklch(26% 0.09 55)","oklch(37% 0.12 55)","oklch(48% 0.14 55)","oklch(59% 0.14 55)","oklch(70% 0.12 55)","oklch(82% 0.08 55)","oklch(95% 0.02 55)"]},
+      "bg": {"role":"neutral","displayName":"Near Black","canonical":"#0a0a0a","tonalRamp":["oklch(15% 0 0)","oklch(26% 0 0)","oklch(37% 0 0)","oklch(48% 0 0)","oklch(59% 0 0)","oklch(70% 0 0)","oklch(82% 0 0)","oklch(95% 0 0)"]},
+      "surface": {"role":"neutral","displayName":"Deep Surface","canonical":"#141414","tonalRamp":["oklch(15% 0 0)","oklch(26% 0 0)","oklch(37% 0 0)","oklch(48% 0 0)","oklch(59% 0 0)","oklch(70% 0 0)","oklch(82% 0 0)","oklch(95% 0 0)"]},
+      "border": {"role":"neutral","displayName":"Hairline Border","canonical":"#262626","tonalRamp":["oklch(15% 0 0)","oklch(26% 0 0)","oklch(37% 0 0)","oklch(48% 0 0)","oklch(59% 0 0)","oklch(70% 0 0)","oklch(82% 0 0)","oklch(95% 0 0)"]},
+      "strong": {"role":"neutral","displayName":"Near White","canonical":"#fafafa","tonalRamp":["oklch(15% 0 0)","oklch(26% 0 0)","oklch(37% 0 0)","oklch(48% 0 0)","oklch(59% 0 0)","oklch(70% 0 0)","oklch(82% 0 0)","oklch(95% 0 0)"]},
+      "text": {"role":"neutral","displayName":"Body Gray","canonical":"#a3a3a3","tonalRamp":["oklch(15% 0 0)","oklch(26% 0 0)","oklch(37% 0 0)","oklch(48% 0 0)","oklch(59% 0 0)","oklch(70% 0 0)","oklch(82% 0 0)","oklch(95% 0 0)"]},
+      "muted": {"role":"neutral","displayName":"Quiet Gray","canonical":"#858585","tonalRamp":["oklch(15% 0 0)","oklch(26% 0 0)","oklch(37% 0 0)","oklch(48% 0 0)","oklch(59% 0 0)","oklch(70% 0 0)","oklch(82% 0 0)","oklch(95% 0 0)"]},
+      "light-bg": {"role":"neutral","displayName":"Light Background","canonical":"#fafaf8","tonalRamp":["oklch(15% 0.004 95)","oklch(26% 0.004 95)","oklch(37% 0.004 95)","oklch(48% 0.004 95)","oklch(59% 0.004 95)","oklch(70% 0.004 95)","oklch(82% 0.004 95)","oklch(95% 0.004 95)"]},
+      "light-surface": {"role":"neutral","displayName":"Light Surface","canonical":"#fff","tonalRamp":["oklch(15% 0 0)","oklch(26% 0 0)","oklch(37% 0 0)","oklch(48% 0 0)","oklch(59% 0 0)","oklch(70% 0 0)","oklch(82% 0 0)","oklch(95% 0 0)"]},
+      "light-border": {"role":"neutral","displayName":"Light Border","canonical":"#e6e4df","tonalRamp":["oklch(15% 0.006 90)","oklch(26% 0.006 90)","oklch(37% 0.006 90)","oklch(48% 0.006 90)","oklch(59% 0.006 90)","oklch(70% 0.006 90)","oklch(82% 0.006 90)","oklch(95% 0.006 90)"]},
+      "light-text": {"role":"neutral","displayName":"Light Theme Text","canonical":"#52525b","tonalRamp":["oklch(15% 0.01 275)","oklch(26% 0.01 275)","oklch(37% 0.01 275)","oklch(48% 0.01 275)","oklch(59% 0.01 275)","oklch(70% 0.01 275)","oklch(82% 0.01 275)","oklch(95% 0.01 275)"]},
+      "light-muted": {"role":"neutral","displayName":"Light Theme Muted","canonical":"#706b68","tonalRamp":["oklch(15% 0.006 60)","oklch(26% 0.006 60)","oklch(37% 0.006 60)","oklch(48% 0.006 60)","oklch(59% 0.006 60)","oklch(70% 0.006 60)","oklch(82% 0.006 60)","oklch(95% 0.006 60)"]},
+      "light-accent": {"role":"primary","displayName":"Light Theme Orange","canonical":"#a85a2a","tonalRamp":["oklch(15% 0.06 55)","oklch(26% 0.09 55)","oklch(37% 0.12 55)","oklch(48% 0.14 55)","oklch(59% 0.14 55)","oklch(70% 0.12 55)","oklch(82% 0.08 55)","oklch(95% 0.02 55)"]},
+      "globe-country": {"role":"secondary","displayName":"Country Green","canonical":"#31bf6c","tonalRamp":["oklch(15% 0.06 150)","oklch(26% 0.09 150)","oklch(37% 0.12 150)","oklch(48% 0.15 150)","oklch(59% 0.16 150)","oklch(70% 0.14 150)","oklch(82% 0.10 150)","oklch(95% 0.03 150)"]},
+      "globe-place": {"role":"tertiary","displayName":"Place Red","canonical":"#f46e60","tonalRamp":["oklch(15% 0.06 25)","oklch(26% 0.10 25)","oklch(37% 0.14 25)","oklch(48% 0.17 25)","oklch(59% 0.18 25)","oklch(70% 0.15 25)","oklch(82% 0.10 25)","oklch(95% 0.03 25)"]}
+    },
+    "typographyMeta": {
+      "display": {"displayName":"Display","purpose":"Home hero statement; interior page and Globe titles have their own observed sizes."},
+      "headline": {"displayName":"Headline","purpose":"Section headings."},
+      "title": {"displayName":"Title","purpose":"Card and list headings."},
+      "body": {"displayName":"Body","purpose":"Reading and descriptive copy."},
+      "label": {"displayName":"Label","purpose":"Compact metadata, utilities, and map categories."}
+    },
+    "shadows": [
+      {"name":"mobile-menu","value":"0 12px 30px #0004","purpose":"Raised mobile navigation panel."},
+      {"name":"timeline-icon","value":"0 5px 12px #0004","purpose":"Timeline markers above the line."},
+      {"name":"globe-fallback-inset","value":"inset -35px -25px 70px #090a0a","purpose":"Depth on the loading and error orb."}
+    ],
+    "motion": [
+      {"name":"state-transition","value":"background .2s, color .2s, border-color .2s","purpose":"Button and link state changes."},
+      {"name":"globe-focus","value":"950ms; 0ms with prefers-reduced-motion: reduce","purpose":"Animate the selected map point into view."}
+    ],
+    "breakpoints": [
+      {"name":"mobile","value":"700px"},
+      {"name":"narrow-header","value":"390px"},
+      {"name":"globe-rail","value":"900px"}
+    ]
+  },
+  "components": [
+    {"name":"Outline Action","kind":"button","refersTo":"button-outline","description":"Strong outlined link or action on an editorial page.","html":"<button class=\"ds-outline-btn\">Explore work</button>","css":".ds-outline-btn{display:inline-flex;align-items:center;justify-content:center;min-height:47px;padding:12px 18px;border:1px solid var(--strong,#fafafa);border-radius:3px;background:transparent;color:var(--strong,#fafafa);font:700 .85rem Geist,sans-serif;cursor:pointer;transition:background .2s,color .2s,border-color .2s}.ds-outline-btn:hover{background:var(--strong,#fafafa);color:var(--bg,#0a0a0a)}.ds-outline-btn:focus-visible{outline:2px solid var(--accent,#d9823f);outline-offset:4px}"},
+    {"name":"Ghost Action","kind":"button","refersTo":"button-ghost","description":"Quiet secondary action with a bordered state.","html":"<button class=\"ds-ghost-btn\">Read more</button>","css":".ds-ghost-btn{display:inline-flex;align-items:center;justify-content:center;min-height:47px;padding:12px 18px;border:1px solid var(--border,#262626);border-radius:3px;background:transparent;color:var(--text,#a3a3a3);font:700 .85rem Geist,sans-serif;cursor:pointer;transition:background .2s,color .2s,border-color .2s}.ds-ghost-btn:hover{background:var(--surface,#141414);border-color:var(--accent,#d9823f);color:var(--strong,#fafafa)}.ds-ghost-btn:focus-visible{outline:2px solid var(--accent,#d9823f);outline-offset:4px}"},
+    {"name":"Primary Navigation","kind":"nav","description":"Shared header navigation with a thin orange active rule.","html":"<nav class=\"ds-nav\" aria-label=\"Primary\"><a href=\"#home\">Home</a><a href=\"#projects\" aria-current=\"page\">Projects</a><a href=\"#globe\">Globe</a></nav>","css":".ds-nav{display:flex;align-items:stretch;height:66px;gap:28px;border-bottom:1px solid var(--border,#262626);background:var(--bg,#0a0a0a)}.ds-nav a{display:flex;align-items:center;position:relative;color:var(--text,#a3a3a3);text-decoration:none;font:600 .87rem Geist,sans-serif}.ds-nav a:hover,.ds-nav a[aria-current='page']{color:var(--strong,#fafafa)}.ds-nav a[aria-current='page']::after{content:'';position:absolute;bottom:0;left:0;right:0;height:2px;background:var(--accent,#d9823f)}.ds-nav a:focus-visible{outline:2px solid var(--accent,#d9823f);outline-offset:4px}"},
+    {"name":"Explore Card","kind":"card","refersTo":"card-explore","description":"Flat linked story card in a bordered grid.","html":"<a class=\"ds-explore-card\" href=\"#story\"><span class=\"ds-explore-num\">01</span><strong>Henzen</strong><span>A project in progress.</span><span class=\"ds-explore-link\">Read the story →</span></a>","css":".ds-explore-card{display:flex;flex-direction:column;min-height:270px;padding:31px 28px;border:1px solid var(--border,#262626);background:var(--bg,#0a0a0a);color:var(--text,#a3a3a3);text-decoration:none;font:400 .95rem/1.6 Geist,sans-serif;transition:background .2s}.ds-explore-card:hover{background:var(--surface,#141414)}.ds-explore-card:focus-visible{outline:2px solid var(--accent,#d9823f);outline-offset:4px}.ds-explore-card strong{margin:25px 0 11px;color:var(--strong,#fafafa);font-size:1.35rem;letter-spacing:-.03em}.ds-explore-num{color:var(--accent,#d9823f);font:.76rem 'Geist Mono',monospace}.ds-explore-link{margin-top:auto;color:var(--strong,#fafafa);font-size:.83rem;font-weight:600}"},
+    {"name":"Globe Focus Row","kind":"custom","description":"Accessible geographic focus action with a category marker.","html":"<button class=\"ds-globe-focus\" aria-pressed=\"false\"><span class=\"ds-globe-dot\"></span><span>Italy</span></button>","css":".ds-globe-focus{display:flex;align-items:center;gap:12px;width:100%;min-height:49px;padding:8px 1px;border:0;border-bottom:1px solid rgba(179,201,194,.17);background:none;color:#f1f5f1;text-align:left;cursor:pointer;font:600 .9rem/1.25 Geist,sans-serif}.ds-globe-focus:hover,.ds-globe-focus[aria-pressed='true']{color:var(--accent,#d9823f)}.ds-globe-focus:focus-visible{outline:2px solid var(--accent,#d9823f);outline-offset:-3px}.ds-globe-dot{width:9px;height:9px;flex:none;border-radius:50%;background:#31bf6c;box-shadow:0 0 0 4px rgba(255,255,255,.055)}"}
+  ],
+  "narrative": {
+    "northStar": "The Editorial Portfolio",
+    "overview": "The site presents work through strong type, measured space, thin rules, and a compact orange accent. Its pages read as a connected collection: a shared header and footer frame hero statements, lists, articles, and links to deeper work. A light theme uses the same hierarchy with reversed neutral roles. The Globe is an immersive expression within that world. Its dark canvas makes geography dominant, while the existing header, Geist typography, orange interaction state, and fine dividers keep it connected to the rest of the portfolio. Green and red communicate geographic categories on that surface only.",
+    "keyCharacteristics": ["Dark near-black canvas with a near-white foreground and warm orange accents.","Large, tight Geist headlines paired with smaller Geist Mono metadata.","Thin dividers, compact corners, generous section spacing, and responsive single-column reading.","Distinctive interactive work may fill the viewport while retaining the shared site frame."],
+    "rules": [
+      {"name":"The Semantic Accent Rule","body":"Orange identifies site identity and interaction. On the Globe, `globe-country` identifies highlighted countries and `globe-place` identifies location pins; those colors remain scoped to geographic meaning.","section":"colors"},
+      {"name":"The Two-Font Rule","body":"Keep major statements and reading copy in Geist; use Geist Mono for compact information and controls.","section":"typography"},
+      {"name":"The Bordered Surface Rule","body":"Let borders and tonal changes organize content; reserve shadows for layered objects already evidenced in the build.","section":"elevation"}
+    ],
+    "dos": ["Do preserve the shared header, footer, type families, and semantic orange interaction treatment on new pages.","Do retain the dark and light neutral role mapping when extending shared components.","Do keep custom visualization colors tied to a labeled meaning, as the Globe does with its country and place key."],
+    "donts": ["Don't use the Globe's green and red categories as general site accents.","Don't replace the thin border structure with persistent raised cards across ordinary content pages."]
+  }
+}

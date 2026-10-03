@@ -10,6 +10,10 @@ La repository e il sito sono pubblici all'indirizzo https://fedenebu.github.io/.
 
 Aprire `docs/index.html` nel browser. I percorsi del sito usano link relativi e funzionano anche nell'anteprima locale.
 
+## Globe
+
+La pagina `docs/globe/` (con equivalente `docs/en/globe/`) mette in evidenza Italia, Spagna e Svizzera senza presentarli come Paesi visitati. I pin indicano Madrid e H-FARM nell'area di Venezia. Il globo usa Globe.gl 2.46.1 con verifica d'integrità del file JavaScript e dati geografici fissati a un commit preciso. Se WebGL o una risorsa esterna non sono disponibili, restano visibili i nomi dei Paesi e dei luoghi, mentre i comandi del globo si disattivano.
+
 ## Pubblicazione
 
 GitHub Pages pubblica la cartella `/docs` del branch `main` su https://fedenebu.github.io/. I profili Markdown e `llms.txt` restano disponibili come risorse testuali pubbliche ma non sono collegati dalla navigazione del sito.
